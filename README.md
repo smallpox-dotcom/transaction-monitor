@@ -63,7 +63,7 @@ During development, specific coding questions were researched online, and docume
 cd task_3.1
 python -m venv venv
 source venv/bin/activate 
-pip install pandas numpy matplotlib
+pip install -f requirements.txt
 ```
 
 **Data Preparation**
