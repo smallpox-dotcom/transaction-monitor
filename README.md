@@ -6,7 +6,7 @@ This repository contains two independent projects developed as part of a technic
 
 ---
 
-## Task 3.1 - POS Sales Anomaly Detection
+## Task 1 - POS Sales Anomaly Detection
 
 ### Project History & Development
 
@@ -50,7 +50,7 @@ During development, specific coding questions were researched online, and docume
 
 ---
 
-### Task 3.1 - Usage Instructions
+### Task 1 - Usage Instructions
 
 **Requirements**
 
@@ -60,10 +60,9 @@ During development, specific coding questions were researched online, and docume
 **Setup**
 
 ```bash
-cd task_3.1
 python -m venv venv
 source venv/bin/activate 
-pip install -f requirements.txt
+pip install -r requirements.txt
 ```
 
 **Data Preparation**
@@ -113,7 +112,7 @@ Each report contains:
 
 ---
 
-## Task 3.2 - Real-Time Transaction Monitoring
+## Task 2 - Real-Time Transaction Monitoring
 
 ### Project History & Development
 
@@ -165,26 +164,20 @@ Documentation was consulted for Flask routing patterns, Streamlit session state 
 
 ---
 
-### Task 3.2 - Usage Instructions
-
-**Requirements**
-
-- Python 3.8 or higher
-- Dependencies: flask==2.2.5, pandas==1.5.3, numpy==1.24.3, requests==2.31.0, streamlit==1.28.2, plotly==5.17.0
-
+### Task 2 - Usage Instructions
 
 **Manual Setup**
 
 ```bash
 # Create and activate virtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate
 
-# Install dependencies (compatible versions)
+# Install dependencies 
 pip install -r requirements.txt
 
 # Load transaction data from CSV files
-python scripts/load_transactions.py
+python3 scripts/load_transactions.py
 ```
 
 **Running the System**
@@ -211,7 +204,7 @@ python pipeline.py
 # 1. Install dependencies
 # 2. Load CSV data
 # 3. Start API and dashboard
-# 4. Send 100 training transactions (no alerts)
+# 4. Send 100 training transactions (no alerts) It takes about 15 seconds to inicialize
 # 5. Generate random spikes every 20 seconds
 ```
 
@@ -269,8 +262,6 @@ Thresholds can be adjusted in the Settings tab of the dashboard:
 - Refresh rate: 0.5-5.0 seconds (default: 1.0)
 
 ---
-
-
 
 ## Final Notes
 

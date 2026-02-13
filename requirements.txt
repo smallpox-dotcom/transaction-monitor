@@ -1,0 +1,9 @@
+flask
+pandas
+numpy
+requests
+streamlit
+plotly
+setuptools
+wheel
+matplotlib 
