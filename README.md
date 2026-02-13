@@ -91,12 +91,12 @@ python pipeline.py --export
 **Output Files**
 
 - `outputs/database/monitor.db` - SQLite database with all checkout data
-- `outputs/reports/checkout_*_report.md` - - Detailed anomaly analysis reports ([Report 1](./task_3.1/outputs/reports/checkout_1_report.md), [Report 2](./task_3.1/outputs/reports/checkout_2_report.md))
+- `outputs/reports/checkout_*_report.md` - - Detailed anomaly analysis reports ([Report 1](./task_1/outputs/reports/checkout_1_report.md), [Report 2](./task_1/outputs/reports/checkout_2_report.md))
 - `outputs/visualizations/checkout_*_dashboard.png` - Visual dashboards with anomaly markers
 
-![alt text](task_3.1/outputs/visualizations/checkout_1_dashboard.png)
+![alt text](task_1/outputs/visualizations/checkout_1_dashboard.png)
 
-![Dashboard](./task_3.1/outputs/visualizations/checkout_2_dashboard.png)
+![Dashboard](./task_1/outputs/visualizations/checkout_2_dashboard.png)
 
 - `outputs/exports/checkout_*_data.csv` - Exported data with anomaly classifications
 
@@ -270,5 +270,6 @@ Both projects were developed iteratively with continuous testing and refinement.
 The code is structured for clarity and maintainability. Each component has a single responsibility, and configuration is separated from logic. Both systems include error handling and fallback mechanisms for production reliability.
 
 While AI assistance was consulted for specific technical implementations - particularly around complex pandas operations, Flask routing patterns, and Plotly visualizations - the overall architecture, detection logic, and system design were developed through analysis of requirements and iterative testing.
+
 
 The projects successfully meet all specified requirements and demonstrate competent handling of both batch analysis and real-time monitoring scenarios.
